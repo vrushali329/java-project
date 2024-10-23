@@ -1,0 +1,290 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fmodern JetBrains Mono;}}
+{\colortbl ;\red207\green142\blue109;\red188\green190\blue196;\red86\green168\blue245;\red199\green125\blue187;\red106\green171\blue115;\red42\green172\blue184;\red122\green126\blue133;\red179\green174\blue96;}
+{\*\generator Riched20 10.0.22621}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9                                                                      \fs32 JAVA ASSIGNMENT\par
+1. Write a Java program to change temperature from Celsius to Fahrenheit and vice versa. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 import \cf2 java.util.Scanner;\line\cf1 public class \cf2 p1 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         Scanner sc=\cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line         System.\cf4\i out\cf2\i0 .println(\cf5 "enter the value in celcius:"\cf2 );\line         \cf1 int \cf2 celcius= sc.nextInt();\line         \cf1 int \cf2 farenhite=((\cf6 9\cf2 *celcius)/\cf6 5\cf2 )+\cf6 32\cf2 ;\line         System.\cf4\i out\cf2\i0 .println(\cf5 "the value in farenhite is:"\cf2 +farenhite);\line     \}\line\}\par
+\f0\lang1033 output:\par
+enter the value in celcius:\par
+30\par
+the value in farenhite is:86\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32 2. Write a Java Program to check if a number is Positive or Negative. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\fs20\lang1033 p\f1\lang9 ackage \cf2 com.company;\line\cf1 import \cf2 java.util.Scanner;\line\cf1 public class \cf2 p2 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         Scanner sc=\cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line         System.\cf4\i out\cf2\i0 .println(\cf5 "enter a number"\cf2 );\line         \cf1 int \cf2 a= sc.nextInt();\line         \cf1 if\cf2 (a>=\cf6 0\cf2 )\{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "the number is positive "\cf2 );\line         \}\line         \cf1 else \cf2\{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "the number is negative"\cf2 );\line         \}\line     \}\line\}\par
+\f0\lang1033 output\par
+enter a number\par
+45\par
+the number is positive \par
+enter a number\par
+-45\par
+the number is negative\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32 3. Write a Java program to find maximum of three numbers. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 import \cf2 java.util.Scanner;\line\cf1 public class \cf2 p3 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         Scanner sc=\cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line         System.\cf4\i out\cf2\i0 .println(\cf5 "enter three number:"\cf2 );\line         \cf1 int \cf2 a= sc.nextInt();\line         \cf1 int \cf2 b= sc.nextInt();\line         \cf1 int \cf2 c= sc.nextInt();\line         \cf1 if\cf2 (a>b&&a>c)\{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "a is greater"\cf2 );\line         \}\line         \cf1 else if\cf2 (b>a&&b>c)\{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "b is greater"\cf2 );\line         \}\line         \cf1 else\cf2\{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "c is greater"\cf2 );\line         \}\line     \}\line\}\par
+\f0\lang1033 output\par
+enter three number:\par
+4 5 2\par
+b is greater\cf0\fs32\lang9\par
+
+\pard\sa200\sl276\slmult1 4. Write a Java program to swap two numbers.\par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 import \cf2 java.util.Scanner;\line\cf1 public class \cf2 p4 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         Scanner sc=\cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line         \cf1 int \cf2 num1= sc.nextInt();\line         \cf1 int \cf2 num2= sc.nextInt();\line         \i swap\i0 (num1,num2);\line     \}\line     \cf1 private static boolean \cf3 swap\cf2 (\cf1 int \cf2 num1, \cf1 int \cf2 num2) \{\line         \cf1 int \cf2 temp =num1;\line         num1=num2;\line         num2=temp;\line         System.\cf4\i out\cf2\i0 .println(\i swap\i0 (\cf6 4\cf2 ,\cf6 5\cf2 ));\line         \cf1 return false\cf2 ;\line     \}\line\}\par
+\f0\lang1033 output:\par
+\f1\lang9\line\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32  \par
+5. Write a Java program to convert miles to kilometers. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 import \cf2 java.util.Scanner;\line\cf1 public class \cf2 p5 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         Scanner sc=\cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line         System.\cf4\i out\cf2\i0 .println(\cf5 "enter the value of km"\cf2 );\line         \cf1 int \cf2 km= sc.nextInt();\line         \cf1 double \cf2 miles=\cf6 0.612\cf2 *km;\line         System.\cf4\i out\cf2\i0 .println(\cf5 "the value in miles is:"\cf2 );\line         System.\cf4\i out\cf2\i0 .println(miles);\line     \}\line\}\par
+\f0\lang1033 output;\par
+enter the value of km\par
+3\par
+the value in miles is:\par
+1.8359999999999999\par
+\cf0\fs32\lang9\par
+
+\pard\sa200\sl276\slmult1 6. Write a Java program to check whether a year is leap year or not. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 mport \cf2 java.util.Scanner;\line\cf1 public class \cf2 p6 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         Scanner sc=\cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line         System.\cf4\i out\cf2\i0 .println(\cf5 "enter the year:"\cf2 );\line         \cf1 int \cf2 year= sc.nextInt();\line         \cf1 if\cf2 (year%\cf6 4\cf2 ==\cf6 0\cf2 ||year%\cf6 400\cf2 ==\cf6 0\cf2 )\{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "it is a leap year"\cf2 );\line         \}\line         \cf1 else if\cf2 (year%\cf6 100\cf2 ==\cf6 0\cf2 )\{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "it is not a leap year"\cf2 );\line         \}\line         \cf1 else \cf2\{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "it is not a leap year"\cf2 );\line         \}\line     \}\line\}\line\f0\lang1033 output:\par
+enter the year:\par
+1342\par
+it is not a leap year\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32\par
+7. Write a Java program for following grading system. Note:   \par
+Percentage>=90%  : Grade A  \par
+Percentage>=80% : Grade B \par
+Percentage>=70% : Grade C  \par
+Percentage>=60% : Grade D  \par
+Percentage>=40% : Grade E \par
+Percentage<40% : Grade F \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 import \cf2 java.util.Scanner;\line\cf1 public class \cf2 p7 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         Scanner sc=\cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line         System.\cf4\i out\cf2\i0 .println(\cf5 "enter the percentage"\cf2 );\line         \cf1 int \cf2 percent=sc.nextInt();\line         \cf1 if\cf2 (percent>=\cf6 90\cf2 )\line             System.\cf4\i out\cf2\i0 .println(\cf5 "Grade A"\cf2 );\line         \cf1 else if\cf2 (percent>=\cf6 80\cf2 )\line             System.\cf4\i out\cf2\i0 .println(\cf5 "Grade B"\cf2 );\line         \cf1 else if\cf2 (percent>=\cf6 70\cf2 )\line             System.\cf4\i out\cf2\i0 .println(\cf5 "Grade C"\cf2 );\line         \cf1 else if\cf2 (percent>=\cf6 60\cf2 )\line             System.\cf4\i out\cf2\i0 .println(\cf5 "Grade D"\cf2 );\line         \cf1 else if\cf2 (percent>=\cf6 40\cf2 )\f0  \par
+                            \f1 System.\cf4\i out\cf2\i0 .println(\cf5 "Grade E"\cf2 );\line         \cf1 else\line             \cf2 System.\cf4\i out\cf2\i0 .println(\cf5 "Grade F"\cf2 );\line     \}\line\}\par
+\f0\lang1033 output:\par
+enter the percentage\par
+45\par
+Grade E\f1\lang9\par
+\cf0\f0\fs32\par
+
+\pard\sa200\sl276\slmult1 8. Write a Java program to check whether a number is divisible by a number given by user. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 import \cf2 javax.swing.*;\line\cf1 import \cf2 java.util.Scanner;\line\line\cf1 public class \cf2 p8 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         Scanner sc=\cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line         System.\cf4\i out\cf2\i0 .println(\cf5 "enter a number"\cf2 );\line         \cf1 int \cf2 a=sc.nextInt();\line         \cf7 //to check  whether a given number is divisble by given number or not\line         \cf1 if\cf2 (a%a==\cf6 0\cf2 )\{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "the nmumber is divisible"\cf2 );\line         \}\line         \cf1 else if\cf2 (a%a!=\cf6 0\cf2 )\{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "the number is not divisible "\cf2 );\line         \}\line         \cf1 else \cf2\{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "the number is not divisible"\cf2 );\line         \}\line     \}\line\}\line\f0\lang1033 output:\par
+enter a number\par
+34\par
+the nmumber is divisible by34\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32\par
+9. Write a Java program to calculate factorial of 12. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf7\f1\fs20 //create a factorial 12\line\cf1 public class \cf2 p9 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         \cf1 int \cf2 i, fact=\cf6 1\cf2 ;\line         \cf1 int \cf2 number=\cf6 12\cf2 ;\line         \cf1 for\cf2 (i=\cf6 1\cf2 ;i<=number;i++)\{\line             fact=fact*i;\line         \}\line         System.\cf4\i out\cf2\i0 .println(\cf5 "factorial of"\cf2 +number+ \cf5 "is"  \cf2 +fact);\line     \}\line\}\par
+\f0\lang1033 output:\par
+factorial of12is479001600\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32\par
+10. Write a Java program for Fibonacci series. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 ublic class \cf2 p11 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         \cf1 int \cf2 n1=\cf6 0\cf2 ,n2=\cf6 1\cf2 ,n3,i,count=\cf6 10\cf2 ;\line         System.\cf4\i out\cf2\i0 .print(n1+\cf5 " "\cf2 +n2);\cf7 //printing 0 and 1\line\line         \cf1 for\cf2 (i=\cf6 2\cf2 ;i<count;++i)\cf7 //loop starts from 2 because 0 and 1 are already printed\line         \cf2\{\line             n3=n1+n2;\line             System.\cf4\i out\cf2\i0 .print(\cf5 " "\cf2 +n3);\line             n1=n2;\line             n2=n3;\line         \}\line\line     \}\line\}\par
+\f0\lang1033 output:\par
+0 1 1 2 3 5 8 13 21 34\f1\lang9\line\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32 11. Write a Java program to reverse a number. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 public class \cf2 p19 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         \cf1 int \cf2 num = \cf6 1234567\cf2 , reversed = \cf6 0\cf2 ;\line         \cf1 for\cf2 (;num != \cf6 0\cf2 ; num /= \cf6 10\cf2 ) \{\line             \cf1 int \cf2 digit = num % \cf6 10\cf2 ;\line             reversed = reversed * \cf6 10 \cf2 + digit;\line         \}\line         System.\cf4\i out\cf2\i0 .println(\cf5 "Reversed Number: " \cf2 + reversed);\line     \}\line\}\par
+\f0\lang1033 output:\par
+Reversed Number: 7654321\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32\par
+12. Admission to a professional course is subject to the following conditions: \par
+(a) marks in Mathematics >= 60 \par
+(b) marks in Physics >=50 \par
+(c) marks in Chemistry >=40 \par
+(d) Total in all 3 subjects >=200 \par
+(Or) Total in Maths & Physics>=150 Given the marks in the 3 subjects of n (user input) \par
+students, write a program to process the applications to list the eligible candidates. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 import \cf2 javax.swing.*;\line\cf1 import \cf2 java.util.Scanner;\line\cf1 public class \cf2 p12 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         Scanner sc = \cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line         System.\cf4\i out\cf2\i0 .println(\cf5 "enter the marks oof three subjects:"\cf2 );\line         \cf1 int \cf2 phy = sc.nextInt();\line         \cf1 int \cf2 mat = sc.nextInt();\line         \cf1 int \cf2 chem = sc.nextInt();\line         \cf1 int \cf2 t = phy + mat + chem;\line         \cf1 int \cf2 pm = phy + mat;\line         \cf1 if \cf2 (phy >= \cf6 70 \cf2 && chem >= \cf6 60 \cf2 && mat >= \cf6 70\line                 \cf2 && (t >= \cf6 225 \cf2 || pm >= \cf6 150\cf2 )) ;\line         System.\cf4\i out\cf2\i0 .println(\cf5 "eligible"\cf2 );\line         \cf1 else\cf2\{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "not eligible"\cf2 );\line\line         \}\line     \}\line\}\par
+\f0\lang1033 output:\par
+\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32\par
+13. Write a Java program to calculate the sum of natural numbers up to a certain range. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 public class \cf2 p13 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         \cf1 int \cf2 n = \cf6 100\cf2 ;\line         \cf1 int \cf2 sum=\cf6 0\cf2 ;\line         \cf1 for\cf2 (\cf1 int \cf2 i=\cf6 0\cf2 ;i<n;i++) \{\line             sum += i;\line         \}\line             System.\cf4\i out\cf2\i0 .println(\cf5 "sum is "\cf2 +sum);\line         \}\line\}\par
+\f0\lang1033 output:\par
+sum is 4950\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32\par
+14. Write a Java program to print all multiple of 10 between a given interval. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 public class \cf2 p14 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         \cf1 int \cf2 n=\cf6 10\cf2 ;\line         \cf1 for\cf2 (\cf1 int \cf2 i=\cf6 1\cf2 ;i<\cf6 11\cf2 ;i++)\{\line             System.\cf4\i out\cf2\i0 .println(\cf6 10\cf2 *i);\line         \}\line     \}\line\}\par
+\f0\lang1033 output:\par
+10\par
+20\par
+30\par
+40\par
+50\par
+60\par
+70\par
+80\par
+90\par
+100\f1\lang9\line\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32\par
+15. Write a Java program to generate multiplication table.\par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 import \cf2 java.util.Scanner;\line\cf1 public class \cf2 p15 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         Scanner sc=\cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line         System.\cf4\i out\cf2\i0 .println(\cf5 "enter a number"\cf2 );\line         \cf1 int \cf2 n= sc.nextInt();\line         \cf1 for \cf2 (\cf1 int \cf2 i=\cf6 0\cf2 ;i<\cf6 11\cf2 ;i++)\{\line             System.\cf4\i out\cf2\i0 .println(i*n);\line         \}\line     \}\line\}\par
+\f0\lang1033 output:\par
+enter a number 4\par
+0 4\par
+8\par
+12  16  20  24  28  32  36  40\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32  \par
+16. Write a Java program to find HCF of two Numbers. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf2\fs20\line\cf1\f1 public class \cf2 p16 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         \cf1 int \cf2 num1 = \cf6 24\cf2 , num2 = \cf6 36\cf2 , hcf=\cf6 0\cf2 ;\line         \cf1 for \cf2 (\cf1 int \cf2 i = \cf6 1\cf2 ; i <= num1 || i <= num2; i++)\line         \{\line             \cf1 if \cf2 (num1 % i == \cf6 0 \cf2 && num2 % i == \cf6 0\cf2 )\line                 hcf = i;\line         \}\line         System.\cf4\i out\cf2\i0 .println(\cf5 "The HCF: "\cf2 + hcf);\line     \}\line\}\line\f0\lang1033 output:\par
+The HCF: 12\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32\par
+17. Write a Java program to find LCM of two Numbers. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 public class \cf2 p17 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         \cf7 // Numbers\line         \cf1 int \cf2 a = \cf6 15\cf2 , b = \cf6 25\cf2 ;\line\line         \cf7 // Checking for the largest\line         // Number between them\line         \cf1 int \cf2 ans = (a > b) ? a : b;\line\line         \cf7 // Checking for a smallest number that\line         // can de divided by both numbers\line         \cf1 while \cf2 (\cf1 true\cf2 ) \{\line             \cf1 if \cf2 (ans % a == \cf6 0 \cf2 && ans % b == \cf6 0\cf2 )\line                 \cf1 break\cf2 ;\line             ans++;\line         \}\line\line         \cf7 // Printing the Result\line         \cf2 System.\cf4\i out\cf2\i0 .println(\cf5 "LCM of " \cf2 + a + \cf5 " and " \cf2 + b\line                 + \cf5 " : " \cf2 + ans);\line     \}\line\}\par
+\f0\lang1033 output:\par
+LCM of 15 and 25 : 75\f1\lang9\line\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32\par
+18. Write a Java program to count the number of digits of an integer\par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 public class \cf2 p18 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         \cf1 int \cf2 count = \cf6 0\cf2 , num = \cf6 20000\cf2 ;\line         \cf1 while \cf2 (num != \cf6 0\cf2 ) \{\line             \cf7 // num = num/10\line             \cf2 num /= \cf6 10\cf2 ;\line             ++count;\line         \}\line         System.\cf4\i out\cf2\i0 .println(\cf5 "Number of digits: " \cf2 + count);\line     \}\line\}\par
+\f0\lang1033 output:\par
+Number of digits: 5\f1\lang9\line\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32\par
+19. Write a Java program to check whether a number is palindrome or not. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 import \cf2 java.util.Scanner;\line\cf1 public class \cf2 p19 \{\line     \cf1 public static void \cf3 main\cf2 (String args[])\{\line         Scanner sc=\cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line         System.\cf4\i out\cf2\i0 .print(\cf5 "Input a number: "\cf2 );\line         \cf1 int \cf2 n = sc.nextInt();\line         \cf1 int \cf2 sum = \cf6 0\cf2 , r;\line         \cf1 int \cf2 temp = n;\line         \cf1 while\cf2 (n>\cf6 0\cf2 )\line         \{\line             r = n % \cf6 10\cf2 ;\line             sum = (sum*\cf6 10\cf2 )+r;\line             n = n/\cf6 10\cf2 ;\line         \}\line         \cf1 if\cf2 (temp==sum)\line             System.\cf4\i out\cf2\i0 .println(\cf5 "It is a Palindrome number."\cf2 );\line         \cf1 else\line             \cf2 System.\cf4\i out\cf2\i0 .println(\cf5 "Not a palindrome"\cf2 );\line     \}\line\}\par
+\f0\lang1033 output:\par
+Input a number: 12321\par
+It is a Palindrome number.\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32 20. Write a Java program to check whether a number is prime or not. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 import \cf2 java.util.Scanner;\line\cf1 public class \cf2 p20 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         Scanner sc=\cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line         System.\cf4\i out\cf2\i0 .println(\cf5 "enter a number:"\cf2 );\line         \cf1 int \cf2 a=sc.nextInt();\line         \cf1 if \cf2 (a==\cf6 0\cf2 ||a==\cf6 1\cf2 )\{\line             \cf1 return\cf2 ;\line         \}\line         \cf1 for \cf2 (\cf1 int \cf2 i=\cf6 2\cf2 ;i<a/\cf6 2\cf2 ;++i)\{\line             \cf1 if\cf2 (a%i==\cf6 0\cf2 )\{\line                 System.\cf4\i out\cf2\i0 .println(\cf5 "not a prime number"\cf2 );\line             \}\line             \cf1 else\cf2\{\line                 System.\cf4\i out\cf2\i0 .println(\cf5 "prime number"\cf2 );\line             \}\line         \}\line     \}\line\}\par
+\f0\lang1033 output:\par
+enter a number:\par
+7\par
+prime number\f1\lang9\line\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32 21. Write a Java program to convert a Binary Number to Decimal and Decimal to Binary. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 public class \cf2 p21 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         \cf7 //declare variable to store decimal number,quotient and array\line         \cf1 int \cf2 quot,i=\cf6 1\cf2 ,j;\line         \cf1 int \cf2 [] arr=\cf1 new int\cf2 [\cf6 100\cf2 ];\line         \cf7 //create a scanner input class\line         \cf2 Scanner sc=\cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line         System.\cf4\i out\cf2\i0 .println(\cf5 "enter a decimal number:"\cf2 );\line         \cf1 int \cf2 dec_num= sc.nextInt();\line         \cf7 //initialize the quotient ,\line         \cf2 quot=dec_num;\line         \cf7 // Convert the decimal number to binary and store binary digits\line         \cf1 while \cf2 (quot != \cf6 0\cf2 ) \{\line             arr[i++] = quot % \cf6 2\cf2 ;\line             quot = quot / \cf6 2\cf2 ;\line         \}\line\line         \cf7 // Display the binary representation of the decimal number\line         \cf2 System.\cf4\i out\cf2\i0 .print(\cf5 "Binary number is: "\cf2 );\line         \cf1 for \cf2 (j = i - \cf6 1\cf2 ; j > \cf6 0\cf2 ; j--) \{\line             System.\cf4\i out\cf2\i0 .print(arr[j]);\line         \}\line         System.\cf4\i out\cf2\i0 .print(\cf5 "\cf1\\n\cf5 "\cf2 );\line     \}\line\}\par
+\f0\lang1033 output:\par
+enter a decimal number:\par
+23\par
+Binary number is: 10111\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32\par
+22. Write a Java program to find median of a set of numbers. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 mport \cf2 java.util.Arrays;\line\cf1 public class \cf2 p22 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         \cf7 // Define and initialize an array of integers\line         \cf1 int\cf2 [] nums = \{\cf6 10\cf2 , \cf6 2\cf2 , \cf6 38\cf2 , \cf6 22\cf2 , \cf6 38\cf2 , \cf6 23\cf2\};\line         \cf7 // Display the original array\line         \cf2 System.\cf4\i out\cf2\i0 .println(\cf5 "Original array: " \cf2 + Arrays.\i toString\i0 (nums));\line         \cf7 // Calculate and display the median of the array\line         \cf2 System.\cf4\i out\cf2\i0 .println(\cf5 "Median of the said array of integers: " \cf2 + \i getMedian\i0 (nums));\line         \cf7 // Define and initialize another array of integers\line         \cf1 int\cf2 [] nums1 = \{\cf6 10\cf2 , \cf6 2\cf2 , \cf6 38\cf2 , \cf6 23\cf2 , \cf6 38\cf2 , \cf6 23\cf2 , \cf6 21\cf2\};\line         \cf7 // Display the original array\line         \cf2 System.\cf4\i out\cf2\i0 .println(\cf5 "\cf1\\n\cf5 Original array: " \cf2 + Arrays.\i toString\i0 (nums1));\line         \cf7 // Calculate and display the median of the second array\line         \cf2 System.\cf4\i out\cf2\i0 .println(\cf5 "Median of the said array of integers: " \cf2 + \i getMedian\i0 (nums1));\line     \}\line     \cf1 public static int \cf3 getMedian\cf2 (\cf1 int\cf2 [] array) \{\line         \cf7 // Check if the length of the array is even\line         \cf1 if \cf2 (array.\cf4 length \cf2 % \cf6 2 \cf2 == \cf6 0\cf2 ) \{\line             \cf7 // Calculate the median for even-sized arrays\line             \cf1 int \cf2 mid = array.\cf4 length \cf2 / \cf6 2\cf2 ;\line             \cf1 return \cf2 (array[mid] + array[mid - \cf6 1\cf2 ]) / \cf6 2\cf2 ;\line         \}\line         \cf7 // Calculate the median for odd-sized arrays\line         \cf1 return \cf2 array[array.\cf4 length \cf2 / \cf6 2\cf2 ];\line     \}\line\}\par
+\f0\lang1033 output:\par
+Original array: [10, 2, 38, 22, 38, 23]\par
+Median of the said array of integers: 30\par
+Original array: [10, 2, 38, 23, 38, 23, 21]\par
+Median of the said array of integers: 23\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32\par
+23. Write Java programs for the patterns given bellow: \par
+(a) 1     \par
+      2 3 4 \par
+      5 6 7 8 9 \par
+(b)      1 \par
+         2 1 2 \par
+      3 2 1 2 3 \par
+   4 3 2 1 2 3 4\par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 public class \cf2 p23 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         \cf1 int \cf2 a = \cf6 1\cf2 ;\line         \cf1 for \cf2 (\cf1 int \cf2 i = \cf6 1\cf2 ; i <= \cf6 4\cf2 ; i++) \{\line             \cf1 for \cf2 (\cf1 int \cf2 j = \cf6 1\cf2 ; j <= i; j++) \{\line                 System.\cf4\i out\cf2\i0 .print(a++ + \cf5 "\cf1\\t\cf5 "\cf2 );\line             \}\line             System.\cf4\i out\cf2\i0 .println();\line         \}\line     \}\line\}\par
+\f0\lang1033 output:\par
+1\par
+2     3    4\par
+5     6     7     8     9\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32  \par
+24. Write a Java program to calculate Sum & Average of an integer array. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 package \cf2 com.company;\line\cf7 //import util.java.s\line\cf1 import \cf2 java.util.Scanner;\line\cf1 public class \cf2 p24 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         \cf1 int \cf2 n, sum = \cf6 0\cf2 ;\line         \cf1 float \cf2 average;\line         Scanner sc = \cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line         System.\cf4\i out\cf2\i0 .print(\cf5 "Enter no. of elements you want in array:"\cf2 );\line         n = sc.nextInt();\line         \cf1 int \cf2 a[] = \cf1 new int\cf2 [n];\line         System.\cf4\i out\cf2\i0 .println(\cf5 "Enter all the elements:"\cf2 );\line         \cf1 for\cf2 (\cf1 int \cf2 i = \cf6 0\cf2 ; i < n ; i++)\line         \{\line             a[i] = sc.nextInt();\line             sum = sum + a[i];\line         \}\line         System.\cf4\i out\cf2\i0 .println(\cf5 "Sum:"\cf2 +sum);\line         average = (\cf1 float\cf2 )sum / n;\line         System.\cf4\i out\cf2\i0 .println(\cf5 "Average:"\cf2 +average);\line     \}\line\}\par
+\f0\lang1033 output:\par
+Enter no. of elements you want in array:5\par
+Enter all the elements:\par
+23 12 56 45 33\par
+Sum:169\par
+Average:33.8\f1\lang9\line\line\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32\par
+25. Write a Java program to implement stack using array. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 public class \cf2 p25 \{\cf1 private int \cf4 maxSize\cf2 ;\line     \cf1 private \cf2 Object[] \cf4 stackArray\cf2 ;\line     \cf1 private int \cf4 top\cf2 ;\line\line     \cf1 public \cf3 p25\cf2 (\cf1 int \cf2 size) \{\line         \cf4 maxSize \cf2 = size;\line         \cf4 stackArray \cf2 = \cf1 new \cf2 Object[\cf4 maxSize\cf2 ];\line         \cf4 top \cf2 = -\cf6 1\cf2 ;\line     \}\line\line     \cf1 public void \cf3 push\cf2 (Object value) \{\line         \cf1 if \cf2 (isFull()) \{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "Stack is full. Cannot push element."\cf2 );\line             \cf1 return\cf2 ;\line         \}\line         \cf4 top\cf2 ++;\line         \cf4 stackArray\cf2 [\cf4 top\cf2 ] = value;\line     \}\line\line     \cf1 public \cf2 Object \cf3 pop\cf2 () \{\line         \cf1 if \cf2 (isEmpty()) \{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "Stack is empty. Cannot pop element."\cf2 );\line             \cf1 return \cf2 -\cf6 1\cf2 ;\line         \}\line         \cf1 int \cf2 oldTop = \cf4 top\cf2 ;\line         \cf4 top\cf2 --;\line         \cf4 stackArray\cf2 [oldTop] = \cf1 null\cf2 ;\line         \cf1 return \cf4 stackArray\cf2 [oldTop];\line     \}\line\line     \cf1 public \cf2 Object \cf3 peek\cf2 () \{\line         \cf1 if \cf2 (isEmpty()) \{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "Stack is empty. Cannot peek element."\cf2 );\line             \cf1 return \cf2 -\cf6 1\cf2 ;\line         \}\line         \cf1 return \cf4 stackArray\cf2 [\cf4 top\cf2 ];\line     \}\line\line     \cf1 public boolean \cf3 isEmpty\cf2 () \{\line         \cf1 return \cf2 (\cf4 top \cf2 == -\cf6 1\cf2 );\line     \}\line\line     \cf1 public boolean \cf3 isFull\cf2 () \{\line         \cf1 return \cf2 (\cf4 top \cf2 == \cf4 maxSize \cf2 - \cf6 1\cf2 );\line     \}\line\line     \cf8 @Override\line     \cf1 public \cf2 String \cf3 toString\cf2 () \{\line         \cf1 return \cf5 "Stack: " \cf2 + Arrays.\i toString\i0 (\cf4 stackArray\cf2 );\line     \}\line\}\line\line\line\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32 26. Write a Java program to implement Queue using array. \par
+27. Write a Java program to enter n elements in an array and find smallest number among them. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 public class \cf2 p27 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args)\line     \{\line         \cf7 // Either we can initialize array elements or can\line         // get input from user. Always it is best to get\line         // input from user and form the array\line         \cf1 int\cf2 [] initializedArray\line                 = \cf1 new int\cf2 [] \{ \cf6 25\cf2 , \cf6 110\cf2 , \cf6 74\cf2 , \cf6 75\cf2 , \cf6 5 \cf2\};\line         System.\cf4\i out\cf2\i0 .println(\cf5 "Given array "\cf2 );\line         \cf1 for \cf2 (\cf1 int \cf2 i = \cf6 0\cf2 ; i < initializedArray.\cf4 length\cf2 ; i++) \{\line             System.\cf4\i out\cf2\i0 .println(initializedArray[i]);\line         \}\line         \cf7 // Initialize minValue with first element of array.\line         \cf1 int \cf2 minValue = initializedArray[\cf6 0\cf2 ];\line         \cf7 // Loop through the array\line         \cf1 for \cf2 (\cf1 int \cf2 i = \cf6 0\cf2 ; i < initializedArray.\cf4 length\cf2 ; i++) \{\line             \cf7 // Compare elements of array with minValue and\line             // if condition true, make minValue to that\line             // element\line             \cf1 if \cf2 (initializedArray[i] < minValue)\line                 minValue = initializedArray[i];\line         \}\line         System.\cf4\i out\cf2\i0 .println(\cf5 "Smallest element present in given array: " \cf2 + minValue);\line     \}\line\}\par
+\f0\lang1033 output:\par
+Given array \par
+25   110  74  75  5\par
+Smallest element present in given array: 5\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32\par
+28. Write Java program to find the sum of all odd numbers in a array.  \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 import \cf2 java.util.Scanner;\line\cf1 public class \cf2 p28 \{\line     \cf1 static \cf2 Scanner \cf4\i sc\cf2\i0 =\cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line     \cf1 public static void \cf3 main\cf2 (String[] args)\{\line         \cf1 int \cf2 Size, i, OddSum = \cf6 0\cf2 ;\line         \cf4\i sc \cf2\i0 = \cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line         System.\cf4\i out\cf2\i0 .print(\cf5 " Please Enter Number of elements in an array : "\cf2 );\line         Size = \cf4\i sc\cf2\i0 .nextInt();\line         \cf1 int \cf2 [] a = \cf1 new int\cf2 [Size];\line         System.\cf4\i out\cf2\i0 .print(\cf5 " Please Enter " \cf2 + Size + \cf5 " elements of an Array  : "\cf2 );\line         \cf1 for \cf2 (i = \cf6 0\cf2 ; i < Size; i++)\line         \{\line             a[i] = \cf4\i sc\cf2\i0 .nextInt();\line         \}\line         \cf1 for\cf2 (i = \cf6 0\cf2 ; i < Size; i++)\line         \{\line             \cf1 if\cf2 (a[i] % \cf6 2 \cf2 != \cf6 0\cf2 )\line             \{\line                 OddSum = OddSum + a[i];\line             \}\line         \}\line         System.\cf4\i out\cf2\i0 .println(\cf5 "\cf1\\n\cf5  The Sum of Odd Numbers in this Array = " \cf2 + OddSum);\line     \}\line\}\par
+\f0\lang1033 output:\par
+Please Enter Number of elements in an array : 5\par
+ Please Enter 5 elements of an Array  : 12 34 23 67 45\par
+The Sum of Odd Numbers in this Array = 135\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32 29. Write a Java program to find duplicate elements in a 1D array and find their frequency of occurrence. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 mport \cf2 java.util.Arrays;\line\cf1 public class \cf2 p29 \{\line     \cf7 //main method\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         \cf7 //Declare and initialize the array elements\line         \cf1 int\cf2 [] array = \{ \cf6 2\cf2 , \cf6 3\cf2 , \cf6 5\cf2 , \cf6 4\cf2 , \cf6 3\cf2 , \cf6 1\cf2 , \cf6 3\cf2 , \cf6 2\cf2 , \cf6 1\cf2 , \};\line         \cf7 //sorting an array\line         \cf2 Arrays.\i sort\i0 (array);\line         \cf7 //declaring the variables\line         \cf1 int \cf2 i,j,frequency;\line         System.\cf4\i out\cf2\i0 .println(\cf5 "These elements are repeated along with its frequency-"\cf2 );\line         \cf7 //loop for logic implementation\line         \cf1 for\cf2 (i=\cf6 0\cf2 ; i<array.\cf4 length\cf2 ; i++)\{\line             frequency = \cf6 1\cf2 ;\line             \cf1 for\cf2 (j=i+\cf6 1\cf2 ; j<array.\cf4 length\cf2 ; j++)\{\line                 \cf1 if\cf2 (array[j] == array[i])\{\line                     frequency++;\line                 \} \cf1 else \cf2\{\line                     \cf1 break\cf2 ;\line                 \}\line             \}\line             i=j-\cf6 1\cf2 ;\line             \cf1 if\cf2 (frequency > \cf6 1\cf2 )\{\line\line                 \cf7 //printing the output\line                 \cf2 System.\cf4\i out\cf2\i0 .println(array[i] + \cf5 " --> " \cf2 + frequency);\line             \}\line         \}\line     \}\line\line\}\par
+\f0\lang1033 output:\par
+These elements are repeated along with its frequency-\par
+1 --> 2\par
+2 --> 2\par
+3 --> 3\f1\lang9\line\cf0\f0\fs32 30. Write a Java program to print every alternate number of a given array \par
+\cf1\f1\fs20 public class \cf2 p30 \{\line     \cf1 public static void \cf3 main\cf2 ( String args[] ) \{\line         \cf7 //initialize array\line         \cf1 int\cf2 [] arr = \{\cf6 11\cf2 , \cf6 12\cf2 , \cf6 13\cf2 , \cf6 14\cf2 , \cf6 15\cf2\};\line         \cf7 //array length\line         \cf1 int \cf2 n = arr.\cf4 length\cf2 ;\line         \cf7 // loop through the array and increment by 2\line         \cf1 for\cf2 (\cf1 int \cf2 i=\cf6 0\cf2 ; i<n; i = i+\cf6 2\cf2 )\{\line             \cf7 //print element\line             \cf2 System.\cf4\i out\cf2\i0 .println(arr[i]);\line         \}\line     \}\line\}\par
+\f0\lang1033 output:\par
+11\par
+13\par
+15\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32\par
+31. Write a Java program to show 0-arguments constructor. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 public class \cf2 p31 \{\line     \cf1 int \cf4 i\cf2 ;\line     \cf7 // constructor with no parameter\line     \cf1 private \cf3 p31\cf2 () \{\line         \cf4 i \cf2 = \cf6 5\cf2 ;\line         System.\cf4\i out\cf2\i0 .println(\cf5 "Constructor is called"\cf2 );\line     \}\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         \cf7 // calling the constructor without any parameter\line         \cf2 p31 obj = \cf1 new \cf2 p31();\line         System.\cf4\i out\cf2\i0 .println(\cf5 "Value of i: " \cf2 + obj.\cf4 i\cf2 );\line     \}\line\}\par
+\f0\lang1033 output:\par
+Constructor is called\par
+Value of i: 5\f1\lang9\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs32 32. Write a Java program to show parameterized constructor. \par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 import \cf2 java.util.Scanner;\line\cf1 public class \cf2 p32\{\line     \cf1 public static class \cf2 Edureka\{\line         String \cf4 studentName\cf2 ;\line         \cf1 int \cf4 studentAge\cf2 ;\line         \cf7 //constructor\line         \cf3 Edureka\cf2 (String name, \cf1 int \cf2 age)\{\line             \cf4 studentName \cf2 = name;\line             \cf4 studentAge \cf2 = age;\line         \}\line         \cf1 void \cf3 display\cf2 ()\{\line             System.\cf4\i out\cf2\i0 .println(\cf4 studentName\cf2 + \cf5 " "\cf2 +\cf4 studentAge\cf2 );\line         \}\line         \cf1 public static void \cf3 main\cf2 (String args[])\line         \{\line             Edureka myObj = \cf1 new \cf2 Edureka(\cf5 "Manan" \cf2 , \cf6 19\cf2 );\line             myObj.display();\line         \}\line     \}\line\line\}\par
+\f0\lang1033 output:\par
+Manan 19\f1\lang9\par
+\cf0\f0\fs32 33. Write a class, Commission, which has an instance variable, sales; an appropriate constructor; and a method, commission() that returns the commission.Now write a demo class to test the Commission class by reading a sale from the user, using it to create a Commission object after validating that the value is not negative. Finally, call the commission() method to get and print the commission. If the sales are negative, your demo should print the message \ldblquote Invalid Input\rdblquote . \par
+\cf1\f1\fs20 mport \cf2 java.util.Scanner;\line\line\cf1 public class \cf2 p29\{\line         \cf1 public static class \cf2 Commission\line         \{\line             String \cf4 name\cf2 ;\line             \cf1 int \cf4 emp_no\cf2 ;\line             \cf1 int \cf4 sal\cf2 ;\line             \cf1 double \cf4 comm\cf2 ;\line             \cf1 void \cf3 input\cf2 () \{\line                 Scanner sc=\cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line                 System.\cf4\i out\cf2\i0 .print(\cf5 "Enter employee name: "\cf2 );\line                 \cf4 name \cf2 = sc.nextLine();\line                 System.\cf4\i out\cf2\i0 .print(\cf5 "Enter employee number: "\cf2 );\line                 \cf4 emp_no \cf2 = sc.nextInt();\line                 System.\cf4\i out\cf2\i0 .print(\cf5 "Enter monthly sales value: "\cf2 );\line                 \cf4 sal \cf2 = sc.nextInt();\line             \}\line             \cf1 void \cf3 compute\cf2 () \{\line                 \cf1 if \cf2 (\cf4 sal \cf2 <= \cf6 50000\cf2 ) \{\line                     \cf4 comm \cf2 = \cf6 5.0 \cf2 / \cf6 100.0 \cf2 * \cf4 sal\cf2 ;\line                 \}\line                 \cf1 else if \cf2 (\cf4 sal \cf2 <= \cf6 80000\cf2 ) \{\line                     \cf4 comm \cf2 = \cf6 8.0 \cf2 / \cf6 100.0 \cf2 * \cf4 sal\cf2 ;\line                 \}\line                 \cf1 else if \cf2 (\cf4 sal \cf2 <= \cf6 100000\cf2 ) \{\line                     \cf4 comm \cf2 = \cf6 10.0 \cf2 / \cf6 100.0 \cf2 * \cf4 sal\cf2 ;\line                 \}\line                 \cf1 else if\cf2 (\cf4 sal\cf2 <\cf6 0\cf2 )\{\line                     System.\cf4\i out\cf2\i0 .println(\cf5 "invalid output"\cf2 );\line                 \}\line                 \cf1 else \cf2\{\line                     \cf4 comm \cf2 = \cf6 12.0 \cf2 / \cf6 100.0 \cf2 * \cf4 sal\cf2 ;\line                 \}\line             \}\line             \cf1 void \cf3 display\cf2 () \{\line                 System.\cf4\i out\cf2\i0 .println(\cf5 "Employee name: " \cf2 + \cf4 name\cf2 );\line                 System.\cf4\i out\cf2\i0 .println(\cf5 "Employee Number: " \cf2 + \cf4 emp_no\cf2 );\line                 System.\cf4\i out\cf2\i0 .println(\cf5 "Monthly Sales: " \cf2 + \cf4 sal\cf2 );\line                 System.\cf4\i out\cf2\i0 .println(\cf5 "Commission: " \cf2 + \cf4 comm\cf2 );\line             \}\line             \cf1 public void \cf3 main\cf2 (String args[]) \{\line                 com.company.p33.Commission obj = \cf1 new \cf2 com.company.p33.Commission();\line                 obj.input();\line                 obj.compute();\line                 obj.display();\line             \}\line         \}\line\}\par
+\f0\lang1033 output:\par
+\par
+\f1\lang9\line     \par
+\cf0\f0\fs32\par
+
+\pard\sa200\sl276\slmult1  \par
+ \par
+ \par
+ \par
+ \fs22\par
+}
+ 

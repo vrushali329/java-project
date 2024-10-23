@@ -11,21 +11,52 @@ public class p1 {
     }
 }
 
-\pard\sa200\sl276\slmult1\cf0\f0\fs32 2. Write a Java Program to check if a number is Positive or Negative. \par
+2. Write a Java Program to check if a number is Positive or Negative. \par
 
-\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\fs20\lang1033 p\f1\lang9 ackage \cf2 com.company;\line\cf1 import \cf2 java.util.Scanner;\line\cf1 public class \cf2 p2 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         Scanner sc=\cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line         System.\cf4\i out\cf2\i0 .println(\cf5 "enter a number"\cf2 );\line         \cf1 int \cf2 a= sc.nextInt();\line         \cf1 if\cf2 (a>=\cf6 0\cf2 )\{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "the number is positive "\cf2 );\line         \}\line         \cf1 else \cf2\{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "the number is negative"\cf2 );\line         \}\line     \}\line\}\par
-\f0\lang1033 output\par
-enter a number\par
-45\par
-the number is positive \par
-enter a number\par
--45\par
-the number is negative\f1\lang9\par
+package com.company;
+import java.util.Scanner;
+public class p2 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a number");
+        int a= sc.nextInt();
+        if(a>=0){
+            System.out.println("the number is positive ");
+        }
+        else {
+            System.out.println("the number is negative");
+        }
+    }
+}
 
-\pard\sa200\sl276\slmult1\cf0\f0\fs32 3. Write a Java program to find maximum of three numbers. \par
+enter a number
+45
+the number is positive 
+enter a number
+-45
+the number is negative
 
-\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf1\f1\fs20 import \cf2 java.util.Scanner;\line\cf1 public class \cf2 p3 \{\line     \cf1 public static void \cf3 main\cf2 (String[] args) \{\line         Scanner sc=\cf1 new \cf2 Scanner(System.\cf4\i in\cf2\i0 );\line         System.\cf4\i out\cf2\i0 .println(\cf5 "enter three number:"\cf2 );\line         \cf1 int \cf2 a= sc.nextInt();\line         \cf1 int \cf2 b= sc.nextInt();\line         \cf1 int \cf2 c= sc.nextInt();\line         \cf1 if\cf2 (a>b&&a>c)\{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "a is greater"\cf2 );\line         \}\line         \cf1 else if\cf2 (b>a&&b>c)\{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "b is greater"\cf2 );\line         \}\line         \cf1 else\cf2\{\line             System.\cf4\i out\cf2\i0 .println(\cf5 "c is greater"\cf2 );\line         \}\line     \}\line\}\par
-\f0\lang1033 output\par
+3. Write a Java program to find maximum of three numbers. \par
+import java.util.Scanner;
+public class p3 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter three number:");
+        int a= sc.nextInt();
+        int b= sc.nextInt();
+        int c= sc.nextInt();
+        if(a>b&&a>c){
+            System.out.println("a is greater");
+        }
+        else if(b>a&&b>c){
+            System.out.println("b is greater");
+        }
+        else{
+            System.out.println("c is greater");
+        }
+    }
+}
+
 enter three number:\par
 4 5 2\par
 b is greater\cf0\fs32\lang9\par
